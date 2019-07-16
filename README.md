@@ -65,7 +65,20 @@ As what we have shown in the dataset analysis, some features shows a classical l
 
 After data pre-processing as we mentioned above, there are 14 features left in the dataset, which is divided in to training and testing set. With linear regression, when the number of features is too low, it could suffer from under-fitting, and get poor performance in both training and testing, while if the features are too many, it is also possible to get over-fitting problem. To learn about the number of features in the linear regression, we have run linear and polynomial regression, based on three models (linear regression, ridge regression and lasso regression), with all the 14 features and only top-10 important features. 
 
-In ridge regression, it shrinks teh coefficients (w) by putting constraint on them, and thus, helps to reduce the model complexity and multi-collinearity. Similarly, in lasso regression, the regularization will lead to zero coefficients, which means some of the features are completely neglected for the evaluation of output, thus, lasso regression not only helps in reducing over-fitting, but also helps in feature selection.
+In ridge regression, it shrinks the coefficients (w) by putting constraint on them, and thus, helps to reduce the model complexity and multi-collinearity. Similarly, in lasso regression, the regularization will lead to zero coefficients, which means some of the features are completely neglected for the evaluation of output, thus, lasso regression not only helps in reducing over-fitting, but also helps in feature selection.
 
 The reason why we used three linear models is, the ridge and lasso regression are some of the simple techniques to reduce model complexity and prevent over-fitting which may result from simple linear regression. By comparing the linear regression, ridge regression and lasso regression, we can also get an insight about how the number of features affect the model performance.
+
+### (1). ALL Features Included
+
+As the figure shown below, where red line is the real price value, and the blue dots are the predicted price value, the first row shows the linear, lasso and ridge regression without polynomial, the second row shows when polynomial in introduced with degree equals to 2, and the third is with degree equals to 3. It shows that, with polynomial, the prediction achieves better performance, since it can help to fit in non-linear features.
+
+![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Predict_ALL.PNG)
+
+### (2). Selected Top-10 Features Included
+
+![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Predict_select.PNG)
+
+The figure shown above is the relation between real price and predicted price, when we only introduced the top-10 important features. 
+
 
