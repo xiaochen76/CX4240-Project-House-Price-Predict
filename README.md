@@ -89,7 +89,7 @@ To find out the comparison among all the methods, we have printed out the rmse v
 
 ![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/RMSE.PNG)
 
-
+It further proves our thoughts, the rmse values in linear regression are the lowest ones, no matter for "all features" or "selected top-10 features". While when we fix the regression methods (just linear regression, ridge or lasso regression), we found that, the "all features" always achieves better rmse than "selected top-10 features" ones. It reveals that, the linear regression cannot well fit the dataset and predict the target variable.
 
 
 
