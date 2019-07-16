@@ -73,11 +73,11 @@ The reason why we used three linear models is, the ridge and lasso regression ar
 
 As the figure shown below, where red line is the real price value, and the blue dots are the predicted price value, the first row shows the linear, lasso and ridge regression without polynomial, the second row shows when polynomial in introduced with degree equals to 2, and the third is with degree equals to 3. It shows that, with polynomial, the prediction achieves better performance, since it can help to fit in non-linear features.
 
-![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Predict_ALL.PNG)
+![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Predict_All.PNG)
 
 ### (2). Selected Top-10 Features Included
 
-![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Predict_select.PNG)
+![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Predict.PNG)
 
 The figure shown above is the relation between real price and predicted price, when we only introduced the top-10 important features. 
 
