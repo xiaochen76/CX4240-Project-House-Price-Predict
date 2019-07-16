@@ -61,5 +61,11 @@ Where the top ranked features include both continuous and discrete data: sqft_li
 
 <img src="https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Price_Bathrooms.PNG" width="280"/> <img src="https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Price_Bedrooms.PNG" width="280"/><img src="https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Price_SqLiving.PNG" width="280"/>
 
-As what we have shown in the dataset analysis, some features shows a classical linear relationship, while some do not have very good linear form, thus, we use both of the linear and polynomial regression, with the selected top-10 features and all the features, to study how the data distribution affect the linear models, and how the feature selection helps with the accuracy.
+As what we have shown in the dataset analysis, some features shows a classical linear relationship, while some do not have very good linear form, thus, we use both of the linear and polynomial regression, to study how the data distribution affect the linear models.
+
+After data pre-processing as we mentioned above, there are 14 features left in the dataset, which is divided in to training and testing set. With linear regression, when the number of features is too low, it could suffer from under-fitting, and get poor performance in both training and testing, while if the features are too many, it is also possible to get over-fitting problem. To learn about the number of features in the linear regression, we have run linear and polynomial regression, based on three models (linear regression, ridge regression and lasso regression), with all the 14 features and only top-10 important features. 
+
+In ridge regression, it shrinks teh coefficients (w) by putting constraint on them, and thus, helps to reduce the model complexity and multi-collinearity. Similarly, in lasso regression, the regularization will lead to zero coefficients, which means some of the features are completely neglected for the evaluation of output, thus, lasso regression not only helps in reducing over-fitting, but also helps in feature selection.
+
+The reason why we used three linear models is, the ridge and lasso regression are some of the simple techniques to reduce model complexity and prevent over-fitting which may result from simple linear regression. By comparing the linear regression, ridge regression and lasso regression, we can also get an insight about how the number of features affect the model performance.
 
