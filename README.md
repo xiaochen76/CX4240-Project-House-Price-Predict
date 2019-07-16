@@ -44,4 +44,10 @@ However, in recursive feature elimination, we get a quite different feature rank
 
 ![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/FeatureImp_RFE.PNG)
 
+While in random forest model, the feature ranking is give as below:
+
+![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/FeatureImp_RF.PNG)
+
+We could find that, in recursive feature elimination and random forest feature ranking, there are more features as continus data on the top ranks, such as the area of living rooms and lots (sqft_living and sqft_lot). While in the linear model, the top ranked features are discrete data.
+
 
