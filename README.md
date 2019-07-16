@@ -14,7 +14,7 @@ To better understand the relationship among the features, we have drawn the pair
 
 ![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Feature_Plot.png)
 
-Moreover, we draw the distribution figures of all the features as shown below, to get a feel about which features are continus, and which are not.
+Moreover, we draw the distribution figures of all the features as shown below, to get a feel about which features are continuous, and which are not.
 
 ![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Feature_Dist.PNG)
 
@@ -48,6 +48,12 @@ While in random forest model, the feature ranking is give as below:
 
 ![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/FeatureImp_RF.PNG)
 
-We could find that, in recursive feature elimination and random forest feature ranking, there are more features as continus data on the top ranks, such as the area of living rooms and lots (sqft_living and sqft_lot). While in the linear model, the top ranked features are discrete data.
+We could find that, in recursive feature elimination and random forest feature ranking, there are more features as continuous data on the top ranks, such as the area of living rooms and lots (sqft_living and sqft_lot). While in the linear model, the top ranked features are discrete data.
+
+To get a more balanced feature ranking, we normalized the scores from each model and get the mean values, the final feature ranking is shown as below:
+
+![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/FeatureImp_Average.PNG)
+
+Where the top ranked features include both continuouss and discrete data: sqft_living, sqft_lot as continuous data, grade, view, bedrooms and bathrooms are discrete data.
 
 
