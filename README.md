@@ -59,7 +59,7 @@ Where the top ranked features include both continuous and discrete data: sqft_li
 
 # 3. Linear Regression and Polynomial Regression
 
-<img src="https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Price_Bathrooms.PNG" width="330"/> <img src="https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Price_Bedrooms.PNG" width="330"/><img src="https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Price_SqLiving.PNG" width="330"/>
+<img src="https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Price_Bathrooms.PNG" width="300"/> <img src="https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Price_Bedrooms.PNG" width="300"/><img src="https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Price_SqLiving.PNG" width="300"/>
 
 As what we have shown in the dataset analysis, some features shows a classical linear relationship, while some do not have very good linear form, thus, we use both of the linear and polynomial regression, with the selected top-10 features and all the features, to study how the data distribution affect the linear models, and how the feature selection helps with the accuracy.
 
