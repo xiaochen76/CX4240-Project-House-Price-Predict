@@ -57,3 +57,5 @@ To get a more balanced feature ranking, we normalized the scores from each model
 Where the top ranked features include both continuouss and discrete data: sqft_living, sqft_lot as continuous data, grade, view, bedrooms and bathrooms are discrete data.
 
 
+# 3. Linear Regression and Polynomial Regression
+
