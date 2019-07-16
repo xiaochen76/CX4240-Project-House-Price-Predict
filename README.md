@@ -12,7 +12,7 @@ To achieve better performance, we firstly used two feature selection methods to 
 
 To better understand the relationship among the features, we have drawn the pairplots for some features, the features we selected are those we considered as very important as our first thought. The pairplots shows how "bathrooms", "bedrooms" and "sqft_living" are distributed vis-a-vis the price as well as the "grade", which means the grading of the houses by the local county. As the pairplot shown below, we could find some linear distribution between price and the features, which could be useful in our linear model.
 
-![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Feature_Plot.PNG)
+![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Feature_Plot.png)
 
 
 
