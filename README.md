@@ -63,5 +63,3 @@ Where the top ranked features include both continuous and discrete data: sqft_li
 
 As what we have shown in the dataset analysis, some features shows a classical linear relationship, while some do not have very good linear form, thus, we use both of the linear and polynomial regression, with the selected top-10 features and all the features, to study how the data distribution affect the linear models, and how the feature selection helps with the accuracy.
 
-### (1). Linear Regression Model
-
