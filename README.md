@@ -79,6 +79,19 @@ As the figure shown below, where red line is the real price value, and the blue 
 
 ![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Predict.PNG)
 
-The figure shown above is the relation between real price and predicted price, when we only introduced the top-10 important features. 
+The figure shown above is the relation between real price and predicted price, when we only introduced the top-10 important features. The first column shows the linear, ridge and lasso regression, and the second column shows the ones with polynomial (degree is set to 2). Similarly as what we have found in the "all features included" method, the linear regression achieves best performance among all the three linear models.
+
+### (3). Comparison and Discussion
+
+It is clearly shown that, no matter in the "all features included" or "selected top-10 features", the linear regression achieves the best performance. While in each method, the ones with polynomial achieves better prediction.
+
+To find out the comparison among all the methods, we have printed out the rmse values of them, as the figure shown below.
+
+![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/RMSE.PNG)
+
+
+
+
+
 
 
