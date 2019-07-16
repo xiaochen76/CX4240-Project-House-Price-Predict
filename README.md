@@ -14,7 +14,9 @@ To better understand the relationship among the features, we have drawn the pair
 
 ![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Feature_Plot.png)
 
+Moreover, we draw the distribution figures of all the features as shown below, to get a feel about which features are continus, and which are not.
 
+![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Feature_Dist.png)
 
 ### (2). Correlation Heat Map
 
