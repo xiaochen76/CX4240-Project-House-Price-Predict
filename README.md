@@ -54,8 +54,14 @@ To get a more balanced feature ranking, we normalized the scores from each model
 
 ![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/FeatureImp_Average.PNG)
 
-Where the top ranked features include both continuouss and discrete data: sqft_living, sqft_lot as continuous data, grade, view, bedrooms and bathrooms are discrete data.
+Where the top ranked features include both continuous and discrete data: sqft_living, sqft_lot as continuous data, grade, view, bedrooms and bathrooms are discrete data.
 
 
 # 3. Linear Regression and Polynomial Regression
+
+<img src="https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Price_Bathrooms.PNG" width="330"/> <img src="https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Price_Bedrooms.PNG" width="330"/><img src="https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/Price_SqLiving.PNG" width="330"/>
+
+As what we have shown in the dataset analysis, some features shows a classical linear relationship, while some do not have very good linear form, thus, we use both of the linear and polynomial regression, with the selected top-10 features and all the features, to study how the data distribution affect the linear models, and how the feature selection helps with the accuracy.
+
+### (1). Linear Regression Model
 
