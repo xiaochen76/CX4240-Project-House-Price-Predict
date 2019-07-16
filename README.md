@@ -14,3 +14,9 @@ To find out how each feature is correlated to our target variable "price", we ha
 
 ![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/HeatMap_ALL.PNG)
 
+It shows that, the correlation value can be positive or negative, when the correlation is positive, it means the increasing of value in such feature will cause the target variable "price" to increase, and vice versa.
+
+We have further drawn the most significant correlated features with target variable "price", as shown below:
+
+![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/HeatMap_select.PNG)
+
