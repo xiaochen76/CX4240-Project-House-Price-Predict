@@ -11,5 +11,5 @@ To achieve better performance, we firstly used two feature selection methods to 
 ### (1). Correlation Heat Map
 
 To find out how each feature is correlated to our target variable "price", we have drawn the correation heat map of all the features as shown below:
-![Image](/Figures/HeatMap_ALL.png)
+![Image](https://github.com/xiaochen76/CX4240-Project-House-Price-Predict/blob/master/Figures/HeatMap_ALL.PNG)
 
